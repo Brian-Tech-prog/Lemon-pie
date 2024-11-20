@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa al menos el 100% del viewport */
+}
+main {
+  flex: 1; /* Ocupa el espacio restante entre header y footer */
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* ----------- header ---------- */
+header div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 39px;
+}
+.img-front {
+  flex-grow: 0;
+  align-self: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+  width: 93px;
+  height: 34.7px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.img-lemon {
+  width: 650px;
+  height: 375px;
+  margin-left: 8px;
+}
+/* ----------- main ------------ */
+/* ----- section 1 ----- */
+.s-1 {
+  margin-top: 34px;
+  margin-left: 8px;
+}
+
+/* ------- section 2 ------- */
+.s-2 {
+  margin-top: 22px;
+  margin-left: 8px;
+}
+.lista {
+  list-style-type: disc;
+  margin-left: 32px;
+  margin-top: 20px;
+}
+.h3-separar {
+  margin-top: 19px;
+}
+/* ------- section 3 ------- */
+.s-3 {
+  margin-top: 19px;
+  margin-left: 8px;
+}
+.lista-ol {
+  list-style-type: decimal;
+  margin-left: 32px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
